@@ -69,5 +69,6 @@ Notes to be wary of:
   - Combine all data into one table with the schema provided above
 - Analysis:
   - Plot a visualization of the timeseries
+  - The legacy pagecount data has a dip before it is no longer in use. Delete the last month num_views of the legacy pagecount data.
   - Visualization will track three traffic metrics: mobile traffic, desktop traffic, and all traffic (mobile + desktop). (In my plot, I used colors: red, green, blue)
   - Seperate pagecount and pageview plots by category. (In my plot, I used dashed line and solid line)

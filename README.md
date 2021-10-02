@@ -51,6 +51,7 @@ Notes to be wary of:
 - pageview_desktop_views was obtained directly from the API
 - pageview_mobile_views was obtained by summing mobile_web and mobile_app values from the API.
   - You must call the API twice. "access" : "mobile-web" and "access" : "mobile-app" and sum the values together to obtain a total mobile views
+- The legacy pagecount data has a dip before it is no longer in use. Delete the last month num_views of the legacy pagecount data.
 
 # Replication Process:
 - Download the data using the API:
